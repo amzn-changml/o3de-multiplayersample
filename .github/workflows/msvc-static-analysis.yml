@@ -8,7 +8,9 @@ on:
 env:
   # Path to the CMake build directory.
   build: '${{ github.workspace }}/build'
-  config: 'Djobs:
+  config: 'Debug'
+
+jobs:
   analyze:
     name: Analyze
     runs-on: windows-latest
